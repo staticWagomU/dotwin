@@ -18,3 +18,5 @@ vcon=cd %USERPROFILE%\dotvim\vim $*
 econ=cd %USERPROFILE%\emacs.d $*
 home=cd %USERPROFILE% $*
 dpp=cd %USERPROFILE%\.cache\dpp\repos $*
+..=cd .. $*
+...=cd ..\.. $*
