@@ -1,5 +1,6 @@
-n=nvim --cmd "let g:useShared=v:true" $*
+n=set NVIM_APPNAME=&&nvim $*
 nn=nvim $*
+n2=set NVIM_APPNAME=nvim-v2&&nvim $*
 vi=vim $*
 v=vim $*
 mv=mv -i $*
