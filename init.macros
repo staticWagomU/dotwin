@@ -1,6 +1,7 @@
 n=set NVIM_APPNAME=&&nvim $*
 nn=nvim $*
-n2=set NVIM_APPNAME=nvim-v2&&nvim $*
+n2=set NVIM_APPNAME=nvim-sub&&nvim $*
+n3=set NVIM_APPNAME=nvim-mini&&nvim $*
 vi=vim $*
 v=vim $*
 mv=mv -i $*
