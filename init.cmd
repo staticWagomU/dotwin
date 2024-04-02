@@ -10,3 +10,7 @@ set AQUA_GLOBAL_CONFIG=%USERPROFILE%\aqua.yaml
 set LANG=ja_JP.UTF-8
 
 cls
+
+REM proto
+set PROTO_HOME=%USERPROFILE%\.proto
+set PATH=%PROTO_HOME%\shims;%PROTO_HOME%\bin;%PATH%
