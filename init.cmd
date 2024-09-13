@@ -1,6 +1,6 @@
 @echo off
 
-prompt $T$B$S$P$_$$$S
+prompt [$T]$S[31m%USERNAME%@%COMPUTERNAME%$S[32m$P[0m$_$$$S
 doskey /macrofile=%USERPROFILE%\init.macros
 set PATH=C:\Users\wagomu\dotwin\bat;%PATH%;%LOCALAPPDATA%\aquaproj-aqua\bat;%LOCALAPPDATA%\aquaproj-aqua\bin;%PATH%
 if "%CMD_INIT_SCRIPT_LOADED%" neq "" goto :eof
