@@ -32,7 +32,7 @@ try {
     $xl.DisplayAlerts = $false
 
     $wb = $xl.Workbooks.Open($xlsmPath)
-    
+
     $wb.VBProject.VBComponents | ForEach-Object {
         $extension = Get-VBComponentTypeExtension $_.Type
         if ($extension -ne "unk") {
