@@ -9,8 +9,11 @@ set WEZTERM_CONFIG_FILE=%USERPROFILE%\wezterm.lua
 set AQUA_GLOBAL_CONFIG=%USERPROFILE%\aqua.yaml
 set LANG=ja_JP.UTF-8
 
-cls
-
 REM proto
 set PROTO_HOME=%USERPROFILE%\.proto
-set PATH=%PROTO_HOME%\shims;%PROTO_HOME%\bin;%PATH%
+set PATH=%USERPROFILE%\.proto\shims;%PATH%
+set PATH=%USERPROFILE%\.proto\bin;%PATH%
+
+set PATH=C:\Program Files\Vim\vim91;%USERPROFILE%\dotwin\bat;%PATH%
+
+cls
